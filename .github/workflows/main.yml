@@ -1,0 +1,14 @@
+name: runner overview
+on:
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-slim
+    steps:
+      - name: Load runner info
+        uses: devops-actions/load-runner-info@v1.0.12
+        with:
+          organization: "sraisl"
+          
+                
