@@ -10,5 +10,6 @@ jobs:
         uses: devops-actions/load-runner-info@v1.0.12
         with:
           organization: "sraisl"
+          accessToken: ${{ secrets.ACCESS_TOKEN }}
           
                 
